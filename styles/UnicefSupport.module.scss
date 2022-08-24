@@ -1,0 +1,29 @@
+// variables
+$support_bcg_color : #f5f5f7;
+
+
+.support_section {
+    background-color: $support_bcg_color;
+    padding : 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .support_section_link {
+        max-width: 30ch;
+        text-align: center;
+        color : var(--support_link_color);
+        margin-top: 4px;
+        line-height: 1.5;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .icon_arrow {
+        font-size: 15px;
+    }
+}
